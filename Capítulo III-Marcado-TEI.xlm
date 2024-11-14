@@ -2,7 +2,7 @@
 
 <!-- Esto es un comentario -->
 
-<?xml-model href="esquema_prueba.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href=http://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- Declaración de modelo XML: asociamos nuestro archivo a un esquema de TEI -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- Elemento raíz -->
@@ -24,7 +24,7 @@
              </titleStmt>
 
             <publicationStmt>
-                <authority>Documento publicado bajo licencia Creative Commons, deberíamos añadir que tipo!</authority> <licence target="https://creativecommons.org/licenses/by/4.0/"> <!-- Información importante para las publicaciones digitales, recuerden las unidades anterior-->
+                <authority>Documento publicado bajo licencia Creative Commons, deberíamos añadir que tipo!</authority> <licence target="https://creativecommons.org/licenses/by/4.0/"> </licence> <!-- Información importante para las publicaciones digitales, recuerden las unidades anterior-->
             </publicationStmt> <!-- recuerden cerrar las etiquetas-->
    
             <sourceDesc>
