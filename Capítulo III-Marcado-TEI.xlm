@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Declaración XML -->
+
+<!-- Esto es un comentario -->
+
+<?xml-model href=http://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- Declaración de modelo XML: asociamos nuestro archivo a un esquema de TEI -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- Elemento raíz -->
+
+   <teiHeader> <!-- Encabezado con metadatos IMPORTANTE-->
+        <fileDesc>
+
+            <titleStmt> 
+                 <title>Naufragios</title> <!-- Título del documento -->
+                 <author>Alvar Nuñez Cabeza de Vaca</author>
+                 <editor>Produced by Library of Congress, Stan Goodman, DP Spanish, Virginia Paque and the Online Distributed Proofreading Team</editor>
+                <respSmt>
+                <resp>Estudiantes y creadoras del archivo TEI</resp>
+                <name>Luciana Silvestri</name>
+                <name>Cecilia Orti</name>
+                <name>Sandra León</name>
+                </respSmt>
+
+             </titleStmt>
+
+            <publicationStmt>
+                <authority>Documento publicado bajo licencia Creative Commons, CC BY 4.0 </authority> <licence target="https://creativecommons.org/licenses/by/4.0/"> </licence> <!-- Información importante para las publicaciones digitales, recuerden las unidades anterior-->
+            </publicationStmt> <!-- recuerden cerrar las etiquetas-->
+   
+            <sourceDesc>
+                <bibl>
+                    <publisher>
+                       Library of Congress 
+                    </publisher> <!-- fuente del documento-->
+                    <date>2000</date>
+                     Texto tomado de Project Gutenberg, a collection of free eBooks. Texto original disponible en: <ref target="https://www.gutenberg.org/cache/epub/11071/pg11071.txt">Project Gutenberg</ref>
+
+                </bibl> <!-- recomiendo siempre, para no olvidar cerrar las etiquetas, utilizar los atajos de VS Code, en este caso "CTRL + e"-->
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader><!--fin del encabezado-->
+
+    <text>
+        <body>
+
+            <div type="CAPITULO_III">
+
+                <head type="head">Como llegamos à la <placeName ref="https://www.openstreetmap.org/#map=7/28.053/-84.188">Florida</placeName></head>
+
+                <p>En efte mifmo dia faliò el Contador <name>Alonfo Enriquez</name>, i fe pufo en vna
+                Isla, que eftà en la mifma Baìa, i llamò à los Indios, los quales
+                vinieron, i eftuvieron con èl buen pedaço de tiempo, i por via de 
+                refcate le dieron <food>Pefcado</food>, i algunos pedaços de <food>carne de Venado</food>.</p> 
+                <p>Otro dia figuiente, que era <date>Viernes Santo</date>, <name>el Governador</name> fe defembarcò con la 
+                mas Gente, que en los Bateles que traìa, pudo facar; i como llegamos à
+                los Buhìos, ò Cafas, que haviamos vifto de los Indios, hallamòslas 
+                defamparadas, i folas, porque la Gente fe havia ido aquella noche en fus 
+                <transport>Canoas</transport>. El vno de aquellos Buhìos era mui grande, que cabrian en èl mas 
+                de trecientas Perfonas: los otros eran mas pequeños, i hallamos alli vna
+                Sonaja de Oro, entre las Redes.</p> 
+                <p>Otro dia <name>Governador</name> levantò Pendones por <abbr>V. Mag.</abbr> i tomò la pofefion de la Tierra en fu Real Nombre, prefentò
+                fus Provifiones, i fue obedefcido por <name>Governador</name>, còmo <abbr>V. Mag.</abbr> lo
+                mandaba. Afimifmo prefentamos nofotros las nueftras ante èl, i èl las
+                obedefciò, como en ellas fe contenia. Luego mandò, que toda la otra
+                Gente defembarcafe, i los <animal>Caballos</animal> que havian quedado, que no eran mas
+                de quarenta i dos, porque los demàs, con las grandes <climate>Tormentas</climate>, i mucho
+                tiempo que havian andado por la Mar, eran muertos: i eftos pocos que
+                quedaron eftaban tan flacos, i fatigados, que por el prefente poco
+                provecho podiamos tener de ellos.</p> 
+                <p>Otro dia los Indios de aquel Pueblo vinieron à nofotros, i aunque nos hablaron, como nofotros no teniamos
+                Lengua, no los entendiamos: mas hacian nos muchas feñas, i amenaças, i
+                nos parefciò, que nos decian, que nos fuefemos de la Tierra; i con efto
+                nos dexaron, fin que nos hiciefen ningun impedimento, i ellos fe fueron.</p>
+            </div>    
+        </body>
+    </text>
+</TEI>
+
